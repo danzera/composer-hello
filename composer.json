@@ -1,9 +1,11 @@
 {
 	"name": "danzera/composer-hello",
-	"repositories": {
-		"type": "vcs",
-		"url": "https://github.com/danzera/composer-basic"
-	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/danzera/composer-basic"
+		}
+	],
 	"require": {
 		"danzera/composer-basic": "dev-master"
 	}
